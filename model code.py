@@ -18,7 +18,7 @@ from sklearn.preprocessing import StandardScaler
 from matplotlib import pyplot as plt
 
 
-#This how to open the data using pandas module and usecols is used to select specific columns you want to use.
+#This is how to open the data using pandas module and usecols is used to select specific columns you want to use.
 df = pd.read_csv('C:\\Users\PC\\Downloads\\diabetes.csv', usecols = ['Glucose','Age', 'Outcome','BloodPressure'])
 
 
